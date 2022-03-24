@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+.search-taxi-container {
+  margin: 1% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.timepick-container {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  background-color: #e1edfc;
+  border-radius: 25px;
+}
+
+.button-container {
+  margin: 1% 2%;
+}
+
+.margined {
+    margin-right: 35px; 
+}
+
+a.peeked {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: #e1edfc;
+  border-radius: 25px;
+}
+
+/* create GitHub kitty */
+a.peeked:after {
+  content: "\f1ba";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: #ffd854;
+  font-size: 30px;
+  transition: all 500ms ease; /* easeInOutBack */
+}
+/* peek! */
+a.peeked:hover:after {
+  transform: translate(5px, -30px);
+}
+
+.search-taxi-map-container {
+  margin-top: -3%;
+}

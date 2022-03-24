@@ -1,0 +1,36 @@
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+.title-container {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 1% auto -1% auto;
+    color: #000;
+}
+
+.substitle {
+    text-align: center;
+    margin: 1% auto -1% auto;
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+}
+
+.gif-container {
+    margin: 3% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.taxi-gif {
+    border: #e1edfc 1rem solid;
+    border-radius: 25px;
+}
